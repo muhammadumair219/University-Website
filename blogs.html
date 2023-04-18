@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@100;200;300;400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>University Website</title>
+</head>
+<body>
+
+    <!-- Header -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blogs.html">BLOG</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+        </div>
+    </section>
+
+    <!-- Blog Page Content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis nihil, aut temporibus quo labore corrupti ducimus consequuntur tempore enim similique cumque nostrum est maxime exercitationem totam dignissimos in? Iure, quo.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quo, odio, saepe, ducimus hic impedit reiciendis distinctio fugiat necessitatibus nam doloribus sequi. Possimus ipsam, laborum perspiciatis hic sed accusantium numquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nesciunt, hic beatae doloribus alias praesentium voluptatum adipisci culpa totam iste nihil facilis quidem vero quo quam laborum nemo quos enim.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quo, odio, saepe, ducimus hic impedit reiciendis distinctio fugiat necessitatibus nam doloribus sequi. Possimus ipsam, laborum perspiciatis hic sed accusantium numquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nesciunt, hic beatae doloribus alias praesentium voluptatum adipisci culpa totam iste nihil facilis quidem vero quo quam laborum nemo quos enim.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quo, odio, saepe, ducimus hic impedit reiciendis distinctio fugiat necessitatibus nam doloribus sequi. Possimus ipsam, laborum perspiciatis hic sed accusantium numquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nesciunt, hic beatae doloribus alias praesentium voluptatum adipisci culpa totam iste nihil facilis quidem vero quo quam laborum nemo quos enim.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Seiences</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span>Computer Sciences</span>
+                    <span>38</span>
+                </div>
+                <div>
+                    <span>Auto CAD</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos qui omnis ad. Nulla voluptatem inventore fuga, error cupiditate praesentium sit, corrupti odio iusto <br> earum maiores distinctio deserunt doloremque, perspiciatis repudiandae.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+    <!-- JavaScript for toggle menu -->
+
+    <script>
+        let navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+            // alert('test');
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            // alert('test');
+        }
+    </script>
+</body>
+</html>
